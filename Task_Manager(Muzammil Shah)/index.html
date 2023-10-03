@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Task Management App</title>
+  </head>
+  <body>
+    <header>
+      <h1>Task Master</h1>
+    </header>
+    <main>
+      <div class="task-form">
+        <h2>Add Task</h2>
+        <input type="text" id="task-name" placeholder="Task Name" />
+        <input type="text" id="developer-name" placeholder="Developer Name" />
+        <input type="date" id="due-date" placeholder="Due Date" />
+        <button id="add-task-btn">Add Task</button>
+      </div>
+      <div class="task-list">
+        <h2>Task List</h2>
+        <ul id="task-ul">
+          <!-- Task items will be added dynamically here -->
+        </ul>
+      </div>
+    </main>
+    <footer>
+      <div class="notifications">
+        <h2>Notifications</h2>
+        <div id="notifications-list">
+          <!-- Notifications will be displayed here -->
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
